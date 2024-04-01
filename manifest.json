@@ -3,29 +3,35 @@
   "name": "Oscarize",
   "version": "0.1.1",
   "description": "Improves boring youtube thumbnails by adding Oscar.",
-  "host_permissions": [ "https://www.youtube.com/*"],
-  "content_scripts":
-  [
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["main.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "main.js"
+      ],
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["nativeMessaging"],
-  "web_accessible_resources":
-  [
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "web_accessible_resources": [
     {
-      "resources":
-      [
+      "resources": [
         "assets/images/*.png"
       ],
-      "matches": ["*://*/*"]
-    }],
-  "action":
-  {
-    "default_icon":
-    {
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
       "16": "assets/icons/icon-16.png",
       "24": "assets/icons/icon-24.png",
       "32": "assets/icons/icon-32.png",
@@ -34,8 +40,7 @@
     "default_popup": "popup.html",
     "default_title": "Oscarizer"
   },
-  "icons":
-  {
+  "icons": {
     "16": "assets/icons/icon-16.png",
     "24": "assets/icons/icon-24.png",
     "32": "assets/icons/icon-32.png",
