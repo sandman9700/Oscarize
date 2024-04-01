@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Oscarize",
   "version": "0.1.1",
-  "description": "Improves boring youtube thumbnails by adding Oscar.",
+  "description": "Improves boring YouTube thumbnails by adding Oscar.",
   "host_permissions": [
     "https://www.youtube.com/*"
   ],
@@ -21,14 +21,7 @@
     "nativeMessaging"
   ],
   "web_accessible_resources": [
-    {
-      "resources": [
-        "assets/images/*.png"
-      ],
-      "matches": [
-        "*://*/*"
-      ]
-    }
+    "assets/images/*.png"
   ],
   "action": {
     "default_icon": {
