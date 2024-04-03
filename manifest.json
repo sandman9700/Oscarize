@@ -1,12 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Oscarize",
-<<<<<<< HEAD
   "version": "0.1.2",
   "version-name": "It's Functional",
-=======
-  "version": "0.1.1",
->>>>>>> 216684252fc347efa4fa27ed1e8a4d0b5faf490d
   "description": "Improves boring youtube thumbnails by adding Oscar.",
   "host_permissions": [ "https://www.youtube.com/*"],
   "content_scripts":
